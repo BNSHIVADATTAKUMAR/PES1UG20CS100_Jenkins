@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'g++ -o hello a.cpp'
+                sh 'g++ -o hello working.cpp'
             }
         }
 
